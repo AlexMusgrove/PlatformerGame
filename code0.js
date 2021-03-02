@@ -129,7 +129,7 @@ for(var i = 0, k = 0, l = gdjs.Platformer_32GameCode.GDPlayerObjects2.length;i<l
     }
 }
 gdjs.Platformer_32GameCode.GDPlayerObjects2.length = k;}if (gdjs.Platformer_32GameCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "New scene2", true);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Platformer Game", true);
 }}
 
 }
@@ -222,7 +222,7 @@ gdjs.Platformer_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPre
 }if ( gdjs.Platformer_32GameCode.condition0IsTrue_0.val ) {
 {
 {gdjs.Platformer_32GameCode.conditionTrue_1 = gdjs.Platformer_32GameCode.condition1IsTrue_0;
-gdjs.Platformer_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8301932);
+gdjs.Platformer_32GameCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8009868);
 }
 }if ( gdjs.Platformer_32GameCode.condition1IsTrue_0.val ) {
 {
@@ -446,7 +446,7 @@ gdjs.Platformer_32GameCode.condition0IsTrue_0.val = false;
 {
 gdjs.Platformer_32GameCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Platformer_32GameCode.mapOfGDgdjs_46Platformer_9532GameCode_46GDPlayerObjects1Objects, gdjs.Platformer_32GameCode.mapOfGDgdjs_46Platformer_9532GameCode_46GDAlienObjects1Objects, false, runtimeScene, false);
 }if (gdjs.Platformer_32GameCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "New scene2", true);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Platformer Game", true);
 }}
 
 }
