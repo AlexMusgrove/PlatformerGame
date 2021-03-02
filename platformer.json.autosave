@@ -1686,9 +1686,9 @@
           "variables": [],
           "behaviors": [
             {
-              "extraBorder": 500,
               "name": "DestroyOutside",
-              "type": "DestroyOutsideBehavior::DestroyOutside"
+              "type": "DestroyOutsideBehavior::DestroyOutside",
+              "extraBorder": 500
             }
           ],
           "animations": [
@@ -1878,7 +1878,15 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -2837,7 +2845,7 @@
               },
               "parameters": [
                 "",
-                "\"New scene2\"",
+                "\"Platformer Game\"",
                 "yes"
               ],
               "subInstructions": []
@@ -2961,7 +2969,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"New scene2\"",
+                    "\"Platformer Game\"",
                     "yes"
                   ],
                   "subInstructions": []
